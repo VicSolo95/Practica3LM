@@ -1,0 +1,232 @@
+/* Importar fuente de google */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/* Por defecto */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definir fuente */
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Diseño base */
+.wrapper 
+{
+    width: 100vw;
+    height: 100vh;
+
+}
+
+/* Disposición de barra de navegación */
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.brand
+{
+    margin-top: -8px;
+}
+
+.brand span
+{
+    color: #e9c46a;
+    font-size: 1.5em;
+}
+
+.menu
+{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.menu li
+{
+    list-style: none;
+
+}
+.menu a
+{
+    text-decoration: none;
+    color: #000;
+    padding: 10px 20px;
+    transition: ease-in-out .4s;
+}
+
+.menu .active 
+{
+    color: #e9c46a;
+}
+
+.menu a:hover 
+{
+    background-color: #006d77;
+    color: #fff;
+}
+
+.architecture
+{
+    margin: 0 auto;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    background-color: #006d77;
+    color: #fff;
+
+}
+
+/* Diseño del bloque arquitecture */
+.architecture h1
+{
+    font-size: 3em;
+    margin-top: 1em;
+    padding: 2rem;
+}
+
+span
+{
+    color: #e9c46a;
+}
+
+.architecture p
+{
+    width: 30vw;
+    padding: 2em;
+
+}
+
+.architecture img
+{
+  height: 80vh; 
+}
+
+/* Diseño del bloque 3D */
+.modelling
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    height: 80vh;
+}
+
+.modelling-info
+{
+    padding: 2em;
+}
+
+.modelling-info h2
+{
+    font-size: 3em;
+}
+
+.divider
+{
+    height: 4px;
+    width: 100px;
+    background-color: #e9c46a;
+    margin-top: 10px;
+    margin-bottom: 0em;
+}
+
+.modelling p
+{
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+.modelling img
+{
+    height: 80vh;
+    grid-column: 1/2;
+}
+
+/* Diseño del web design */
+.design
+{
+    background-color: #006d77;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 50vh;
+    color: #fff;
+    border: 7px solid #e9c46a;
+    border-radius: 100px;
+    box-shadow: 10px 30px 11px -15px #e9c56a62;
+    margin-left: 30px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    align-items: center;
+    
+}
+
+.design-info
+{
+    padding: 3rem;
+}
+
+.design h2
+{
+    font-size: 3em;
+}
+
+.design p
+{
+    padding-top: 2em;
+}
+
+.design img
+{
+    height: 40vh;
+
+}
+
+/* Diseño pie de página con enlaces */
+.footer
+{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    background-color: #fff;
+    color: #000;
+}
+
+.footer-content h2
+{
+    font-size: 3em;
+    text-align: center;
+}
+
+.footer-content h5
+{
+    font-size: 1.5em;
+    text-align: center;
+    
+}
+.social-network
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 1em;
+}
+
+.social-network img
+{
+    width: 3vw;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}

@@ -1,0 +1,298 @@
+/* Importar fuente de google */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/* Por defecto */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definir fuente */
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Diseño base */
+.wrapper 
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: #006d77;
+    color: #fff;
+}
+
+/* Disposición de barra de navegación */
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.brand
+{
+    margin-top: -8px;
+}
+
+/* Color de la letra de la "marca" */
+.brand span
+{
+    color: #e9c46a;
+    font-size: 1.5em;
+}
+
+/* Disposición del menú y sus enlaces */
+.menu
+{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.menu li
+{
+    list-style: none;
+
+}
+.menu a
+{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: ease-in-out .4s;
+}
+
+.menu .active 
+{
+    color: #e9c46a;
+}
+
+/* Efecto menú */
+.menu a:hover 
+{
+    background-color: #fff;
+    color: #2a9d8f;
+}
+
+/* Diseño del bloque principal */
+.main
+{
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+
+}
+
+h1
+{
+    font-size: 3em;
+}
+
+span
+{
+    color: #e9c46a;
+}
+
+.download-cv
+{
+    padding: 10px 20px ;
+    background-color: #e9c46a;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px #e9c56abb;
+}
+
+/* Efecto botón download */
+.download-cv:hover
+{
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.main img
+{
+  width: 30vw;
+  border: 7px solid #e9c46a;
+  border-radius: 20px;
+  margin-left: 200px;
+  margin-right: 0px;
+
+ 
+}
+
+/* Diseño del bloque about */
+.about
+{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100vw;
+    align-items: center;
+}
+
+.about-info
+{
+    width: 60vw;
+    padding: 2em;
+    grid-column: 5/10;
+}
+
+.about-info h2
+{
+    font-size: 2em;
+    color: #264653;
+    
+}
+
+/* Barra divisora por CSS */
+.divider
+{
+    height: 4px;
+    width: 100px;
+    background-color: #e9c46a;
+    margin-top: 10px;
+    margin-bottom: 0em;
+}
+
+.about p
+{
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+.about img
+{
+    width: 30vw;
+    grid-column: 1/5;
+}
+.about a
+{
+    text-decoration: none;
+}
+
+/* Diseño del bloque contact */
+.contact-section
+{
+    background-color: #006d77;
+    color: #fff;
+}
+
+.contact-headings
+{
+    padding: 1em 0em 0em 1em;
+    font-size: 3em;
+}
+
+.container-contact
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    padding: 1em;
+    margin-top: 0;
+}
+
+.container-contact img
+{
+    width: 50vw;
+    bottom: 0px;
+    padding: 1em;
+}
+
+/* Diseño formulario */
+.form
+{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+}
+
+.form input
+{
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.form textarea
+{
+    height: 150px;
+    padding: 1em;
+    background: none;
+    border: 1.5px solid #fff;
+    color: #fff;
+    margin-bottom: 10px;
+
+}
+
+/* Diseño botón formulario */
+.btn-submit
+{
+    padding: 10px 20px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background-color: #e9c46a;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px #e9c56abb;
+}
+
+.btn-submit:hover
+{
+    background-color: #fff;
+    box-shadow: none;
+}
+
+/* Diseño pie de página con enlaces */
+.footer
+{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    background-color: #fff;
+    color: #264653;
+}
+
+.footer-content h2
+{
+    font-size: 3em;
+    text-align: center;
+}
+
+.footer-content h5
+{
+    font-size: 1.5em;
+    text-align: center;
+    
+}
+.social-network
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 1em;
+}
+
+.social-network img
+{
+    width: 3vw;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}

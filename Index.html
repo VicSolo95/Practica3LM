@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Website</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" type="image/vnd.microsoft.icon" href="./img/favicon.ico">
+    </head>
+
+    <body>
+
+        <!-- Clase wrapper que englobe todo el contenido -->
+        <div class="wrapper">
+            <header>
+                <nav class="navbar">
+                    <div class="brand">
+                        <h2>V <span>S</span></h2>
+                    </div>
+                    <!-- Creamos el menu con sus enlaces -->
+                    <ul class="menu">
+                        <li><a class="active" href="./Index.html">Home</a></li>
+                        <li><a href="./About.html">About</a></li>
+                        <li><a href="./Portfolio.html">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <!-- Bloque principal -->
+            <main class="main">
+                <div class="info-content">
+                    <h1>I'm <span>Victor</span> Solo</h1>
+                    <p>Or rather Victor Hernandez, a 1st year DAM student at the Seville school Grupo Studium who is trying to make his first professional website. </p>
+                    <!-- Botón de descarga de CV -->
+                    <a download="" href="./CV.pdf">
+                        <button class="download-cv">Download CV</button>
+                     </a>
+                </div> 
+                <!-- Imagen dentro de bloque principal -->
+                <img src="img/logo.png" alt="logo">
+             </main>
+        </div>
+
+        <!-- Bloque about -->
+        <div class="about">
+            <!-- Imagen dentro de bloque about -->
+            <img src="./img/me2.jpg" alt="foto retrato">
+        
+            <!-- Bloque interno con la información -->
+            <div class="about-info">
+                <h2>About me</h2>
+                <div class="divider"></div>
+                <p>Being someone who has gone through different projects in his life without ever fitting in any of them, it seems that now I have managed to find something that I enjoy and entertains me as well as allowing me to find a better job.</p>
+                <p>I have studied Architecture for 4 years, I have learned 3D modeling and I have even tried to start a development company.</p>
+                <button class="download-cv">
+                    <a href="./About.html" alt="About">
+                    Read more
+                    </a>
+                </button>
+            </div>
+        </div>
+        <!-- Bloque contact -->
+        <div id="contact" class="contact-section">
+            <div class="contact-headings">
+                <h2>Keep in touch</h2>
+                <div class="divider"></div>
+            </div>
+            <!-- Bloque interno para formulario de contacto -->
+            <div class="container-contact">
+                <img src="./img/logo_op.png" alt="logo con opacidad">
+                <div class="contact-form">
+                    <h4>Send me a message...</h4>
+                    <!-- Formulario falso -->
+                    <form action="./Incognita.html" class="form">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                        <textarea placeholder="Place your message here"></textarea>
+                        <button type="submit" class="btn-submit">
+                            Send message
+                        </button>                     
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <!-- Pie de la página con enlaces a redes sociales -->
+        <footer class="footer">
+            <div class="footer-content">
+                <h2>Victor Solo</h2>
+                <h5>Developer</h5>
+
+            </div>
+            <div class="social-network">
+                <a href="https://www.instagram.com/vic.solo_/" target="_blank">
+                    <img src="./img/instagram-brands.svg" alt="instagram">
+                </a>
+                <a href="https://twitter.com/vichevaz" target="_blank">
+                    <img src="./img/twitter-brands.svg" alt="twitter">
+                </a>
+                <a href="https://www.linkedin.com/in/victor-hern%C3%A1ndez-v%C3%A1zquez-2bb962117/" target="_blank">
+                    <img src="./img/linkedin-brands.svg" alt="linkedin">
+                </a>
+
+            </div>
+        </footer>
+
+
+    </body>
+</html>

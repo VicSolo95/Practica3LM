@@ -1,0 +1,202 @@
+/* Importar fuente de google */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/* Por defecto */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definir fuente */
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+/* Diseño base */
+.wrapper 
+{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(#006d77, #83c5be, #edf6f9, #fff);
+    color: #fff;
+}
+
+/* Disposición de barra de navegación */
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.brand
+{
+    margin-top: -8px;
+}
+
+.brand span
+{
+    color: #e9c46a;
+    font-size: 1.5em;
+}
+
+.menu
+{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.menu li
+{
+    list-style: none;
+
+}
+.menu a
+{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: ease-in-out .4s;
+}
+
+.menu .active 
+{
+    color: #e9c46a;
+}
+
+.menu a:hover 
+{
+    background-color: #fff;
+    color: #2a9d8f;
+}
+
+/* Diseño del bloque portfolio */
+.divider
+{
+    height: 4px;
+    width: 60px;
+    background-color: #e9c46a;
+    margin-top: 10px;
+    margin-bottom: 0em;
+}
+
+.portfolio-headings
+{
+    width: 100vw;
+    padding: 5em;
+}
+
+.portfolio-headings h2
+{
+    font-size: 2.5em;
+}
+
+/* Diseño del bloque container dentro de portfolio */
+.portfolio .container
+{
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+/* Diseño de las tarjetas */
+.card
+{
+    width: 300px;
+    height: 450px;
+    background-color: #006d77;
+    border-radius: 50px;
+    text-align: center ;
+
+}
+
+.card img
+{
+    width: 15vw;
+    margin-top: 50px;
+
+}
+
+.card-title
+{
+    padding: 20px;   
+}
+
+.card-title p
+{
+    font-size: 0.8em;
+    margin-top: 1em;
+}
+
+.card-title hr
+{
+    font-size: 0.8em;
+    margin-top: 1em;
+
+}
+
+.card-title li
+{
+    list-style: none;
+    font-size: 0.8em;
+    padding: 0.5em;
+}
+
+.projects-links img
+{
+    height: 50px;
+    width: 50px;
+    
+}
+
+/* Diseño pie de página con enlaces */
+.footer
+{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    background-color: #fff;
+    color: #264653;
+}
+
+.footer-content h2
+{
+    font-size: 3em;
+    text-align: center;
+}
+
+.footer-content h5
+{
+    font-size: 1.5em;
+    text-align: center;
+    
+}
+.social-network
+{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 1em;
+}
+
+.social-network img
+{
+    width: 3vw;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+
